@@ -1,0 +1,321 @@
+{
+  "intents": [
+    {
+      "tag": "hot with sea",
+      "patterns": [
+        "Any hot places next to the sea",
+        "Show me any hot places by the sea",
+        "Hotels which are by the sea and hot",
+        "Are there any hot places out there with a sea view?",
+        "For winter vacations i would like a hot place and with sea view, any recommendations?",
+        "Any recommendations for a hot place with a sea view?",
+        "I want a hotel somewhere hot with a sea view, any recommendations?",
+        "show me somewhere hot next to the sea"
+      ],
+      "responses": [
+        "Why not try out HotTimes (4*) in Jaipur, India. Available from 67 a night.",
+        "TooHot Hotel (5*) in Sydney, Australia seems to be your perfect trip. Book now from 67 a night. "
+      ]
+    },
+    {
+      "tag": "mild with sea",
+      "patterns": [
+        "Any mild places next to the sea",
+        "Show me any mild places by the sea",
+        "Hotels which are by the sea and mild",
+        "Are there any mild places out there with a sea view?",
+        "For winter vacations i would like a mild place and with sea view, any recommendations?",
+        "Any recommendations for a mild place with a sea view?",
+        "I want a hotel somewhere mild with a sea view, any recommendations?",
+        "show me mild places next to the sea"
+      ],
+      "responses": [
+        "Why not try out WindyBeach (3*) in Ventry, Ireland. Available from 42 a night.",
+        "Castaway (3*) in The Maldives, Africa seems to be perfect for your trip. Book now from 120 a night.",
+        "The Cape (4*) in Cape Town, South Africa seems to be perfect for your trip. Book now from 78 a night.",
+        "Why not try out SeaViews (3*) in Bora Bora, French Polynesia. Available from 54 a night.",
+        "The IslandHopper (5*) in Dubrovnik, Croatia seems like the perfect match. Book now from 78 a night."
+      ]
+    },
+    {
+      "tag": "hot with mountains",
+      "patterns": [
+        "Any hot place in Dubai with mountains for a stay?",
+        "Hey i want to go somewhere hot with mountains?",
+        "Is there any hot place out there with a mountain view?",
+        "For winter vacations i would like some hot place and with mountains, any recommendations?",
+        "Any recommendations for a hot place with a mountains?",
+        "I want to stay in a hot place with mountains, any recommendations?",
+        "show me hit places with mountains"
+      ],
+      "responses": [
+        "I think the Desert Dreams hotel (4*) in Dubai, UAE would be a suitable place for you. It is available from 67 a night."
+      ]
+    },
+    {
+      "tag": "mild with mountains",
+      "patterns": [
+        "Any mild place with mountains for a stay?",
+        "Hey i want to go somewhere mild with mountains?",
+        "Is there any mild place out there with a mountain view?",
+        "For vacation i would like a mild place with mountains, any recommendations?",
+        "Any recommendations for a mild place with a mountains?",
+        "I want to stay in a mild place with mountains, any recommendations?",
+        "show me mild places with mountains"
+      ],
+      "responses": [
+        "I think the Uptown hotel (3*) in Bali, Indonesia would be a suitable place for you. It is available from 120 a night.",
+        "You could stay at the WearyTraveller (5*) in Paro Valley, Bhutan for 54 a night.",
+        "The ForestRetreat (4*) in Waikato, New Zealand is perfect for you! Book now from 89 a night."
+      ]
+    },
+    {
+      "tag": "cold with mountains",
+      "patterns": [
+        "Any cold place with mountains for a stay?",
+        "Hey i want to go somewhere cold with mountains?",
+        "Is there any cold place out there with a mountain view?",
+        "For winter vacations i would like some cold place and with mountains, any recommendations?",
+        "Any recommendations for a cold place with a mountains?",
+        "I want to stay in a cold place with mountains, any recommendations?",
+        "show me cold places with mountains"
+      ],
+      "responses": [
+        "I think the Twilight hotel (5*) in Marrakech, Morrocco would be a suitable place for you. It is available from 50 a night.",
+        "You could stay at the IceHotel (5*) in Base Marambio, Antarctica for 270 a night.",
+        "The NorthStar (5*) in Greenland is perfect for you! Book now from 250 a night."
+      ]
+    },
+    {
+      "tag": "mild with city",
+      "patterns": [
+        "Any mild place in a city for a stay?",
+        "Hey i want to go somewhere mild in a city",
+        "Is there any mild place out there with a city view?",
+        "I would like a mild place in a city, any recommendations?",
+        "Any recommendations for a mild place in a city?",
+        "I want to stay in a mild place in a city, any recommendations?",
+        "show me mild places in a city"
+      ],
+      "responses": [
+        "I think the Relaxamax hotel (4*) in New Orleans, USA would be a suitable place for you. It is available from 28 a night.",
+        "You could stay at the Eiffel Park (4*) in Paris, France for 45 a night.",
+        "The AppleCity (3*) in New York, USA is perfect for you! Book now from 27 a night.",
+        "You should stay at CastleTown (3*) in Edinburgh, Scotland. It is available from 53 a night.",
+        "WineValley (5*) in Rome, Italy is available from 25 per night.",
+        "Casablanca (5*) in Havan Cuba is available from 29 per night.",
+        "You should stay at TechCity (3*) in Tokyo, Japan fits your description, available from 71 a night."
+      ]
+    },
+    {
+      "tag": "hot",
+      "patterns": [
+        "Hey i want to go somewhere hot",
+        "Is there a hot place out there",
+        "Show me results for hot places",
+        "Tell me places to stay which are hot",
+        "Can you tell me places to stay which are hot",
+        "Are there any hot places out there?",
+        "For summer vacations i would like some hot, any recommendations?",
+        "Any recommendations for a hot place?",
+        "show me hot places"
+      ],
+      "responses": [
+        "I think the TooHot hotel (5*) in Sydney, Australia would be a suitable place for you. Book now from 67 a night.",
+        "Desert Dreams (4*) in Dubai, U.A.E is perfect for you - available from 67 a night.",
+        "Why not try out HotTimes (4*) in Jaipur, India. Rooms from 67 a night."
+      ]
+    },
+    {
+      "tag": "mild",
+      "patterns": [
+        "Hey i want to go somewhere mild",
+        "Is there a mild place out there",
+        "Show me results for mild places",
+        "Tell me places to stay which are mild",
+        "Can you tell me places to stay which are mild",
+        "Are there any mild places out there?",
+        "For summer vacations i would like some mild, any recommendations?",
+        "Any recommendations for a mild place?",
+        "show me mild places"
+      ],
+      "responses": [
+        "I think the Uptown hotel (3*) in Bali, Indonesia would be a suitable place for you. It is available from 120 a night.",
+        "I think the Relaxamax hotel (4*) in New Orleans, USA would be a suitable place for you. It is available from 28 a night.",
+        "Why not try out WindyBeach (3*) in Ventry, Ireland. Rooms from 42 a night.",
+        "Castaway (3*) in The Maldives, Africa seems to be perfect for your trip. Book now from 120 a night.",
+        "You could stay at the Eiffel Park (4*) in Paris, France for 45 a night.",
+        "The Cape (4*) in Cape Town, South Africa seems to be perfect for your trip. Book now from 78 a night.",
+        "Why not try out SeaViews (3*) in Bora Bora, French Polynesia. Available from 54 a night.",
+        "The AppleCity (3*) in New York, USA is perfect for you! Book now from 27 a night.",
+        "The IslandHopper (5*) in Dubrovnik, Croatia seems like the perfect match. Book now from 78 a night.",
+        "You should stay at CastleTown (3*) in Edinburgh, Scotland. It is available from 53 a night.",
+        "WineValley (5*) in Rome, Italy is available from 25 per night.",
+        "You could stay at the WearyTraveller (5*) in Paro Valley, Bhutan for 54 a night.",
+        "The ForestRetreat (4*) in Waikato, New Zealand is perfect for you! Book now from 89 a night.",
+        "Casablanca (5*) in Havan Cuba is available from 29 per night.",
+        "You should stay at TechCity (3*) in Tokyo, Japan fits your description, available from 71 a night."
+      ]
+    },
+    {
+      "tag": "cold",
+      "patterns": [
+        "Hey i want to go somewhere cold",
+        "Is there a cold place out there",
+        "Show me results for cold places",
+        "Tell me places to stay which are cold",
+        "Can you tell me places to stay which are cold",
+        "Are there any cold places out there?",
+        "For summer vacations i would like some cold, any recommendations?",
+        "Any recommendations for a cold place?",
+        "show me cold places"
+      ],
+      "responses": [
+        "I think the Twilight hotel (5*) in Marrakech, Morrocco would be a suitable place for you. It is available from 50 a night.",
+        "You could stay at the IceHotel (5*) in Base Marambio, Antarctica for 270 a night.",
+        "The NorthStar (5*) in Greenland is perfect for you! Book now from 250 a night."
+      ]
+    },
+    {
+      "tag": "hot in asia",
+      "patterns": [
+        "Hey i want to go somewhere hot in asia?",
+        "Is there any hot place out there in asia?",
+        "For vacation i would like some hot place in asia, any recommendations?",
+        "Any recommendations for a hot place in asia?",
+        "show me hot places in asia"
+      ],
+      "responses": [
+        "I think the Desert Dreams hotel (4*) in Dubai, UAE would be a suitable place for you. It is available from 67 a night.",
+        "Why not try out HotTimes (4*) in Jaipur, India. Rooms from 67 a night."
+      ]
+    },
+    {
+      "tag": "mild in asia",
+      "patterns": [
+        "Hey i want to go somewhere mild in asia?",
+        "Is there any mild place out there in asia?",
+        "For vacation i would like some mild place in asia, any recommendations?",
+        "Any recommendations for a mild place in asia?",
+        "show me mild places in asia"
+      ],
+      "responses": [
+        "I think the Uptown hotel (3*) in Bali, Indonesia would be a suitable place for you. It is available from 120 a night.",
+        "You could stay at the WearyTraveller (5*) in Paro Valley, Bhutan for 54 a night.",
+        "You should stay at TechCity (3*) in Tokyo, Japan fits your description, available from 71 a night."
+      ]
+    },
+    {
+      "tag": "mild in north america",
+      "patterns": [
+        "Hey i want to go somewhere mild in north america?",
+        "Is there any mild place out there in north america?",
+        "For vacation i would like some mild place in north america, any recommendations?",
+        "Any recommendations for a mild place in north america?",
+        "show me mild places in north america"
+      ],
+      "responses": [
+        "I think the Relaxamax hotel (4*) in New Orleans, USA would be a suitable place for you. It is available from 28 a night.",
+        "The AppleCity (3*) in New York, USA is perfect for you! Book now from 27 a night.",
+        "Casablanca (5*) in Havan Cuba is available from 29 per night."
+      ]
+    },
+    {
+      "tag": "mild in europe",
+      "patterns": [
+        "Hey i want to go somewhere mild in europe?",
+        "Is there any mild place out there in euorpe?",
+        "For vacations i would like some mild place in europe, any recommendations?",
+        "Any recommendations for a mild place in euorpe?",
+        "show me mild places in europe"
+      ],
+      "responses": [
+        "Why not try out WindyBeach (3*) in Ventry, Ireland. Available from 42 a night.",
+        "You could stay at the Eiffel Park (4*) in Paris, France for 45 a night.",
+        "The IslandHopper (5*) in Dubrovnik, Croatia seems like the perfect match. Book now from 78 a night.",
+        "You should stay at CastleTown (3*) in Edinburgh, Scotland. It is available from 53 a night.",
+        "WineValley (5*) in Rome, Italy is available from 25 per night."
+      ]
+    },
+    {
+      "tag": "mild in africa",
+      "patterns": [
+        "Hey i want to go somewhere mild in africa?",
+        "Is there any mild place out there in africa?",
+        "For vacation i would like some mild place in africa, any recommendations?",
+        "Any recommendations for a mild place in africa?",
+        "show me mild places in africa"
+      ],
+      "responses": [
+        "Castaway (3*) in The Maldives, Africa seems to be perfect for your trip. Book now from 120 a night.",
+        "The Cape (4*) in Cape Town, South Africa seems to be perfect for your trip. Book now from 78 a night."
+      ]
+    },
+    {
+      "tag": "cold in africa",
+      "patterns": [
+        "Hey i want to go somewhere cold in africa?",
+        "Is there any cold place out there in africa?",
+        "For vacation i would like some cold place in africa, any recommendations?",
+        "Any recommendations for a cold place in africa?",
+        "Show me cold places in africa"
+      ],
+      "responses": [
+        "I think the Twilight hotel (5*) in Marrakech, Morrocco would be a suitable place for you. It is available from 50 a night."
+      ]
+    },
+    {
+      "tag": "cold in antarctica",
+      "patterns": [
+        "Hey i want to go somewhere cold in antarctica?",
+        "Is there any cold place out there in antarctica?",
+        "For vacation i would like some cold place in antarctica, any recommendations?",
+        "Any recommendations for a cold place in antarctica?",
+        "Show me cold places in antarctica"
+      ],
+      "responses": [
+        "You could stay at the IceHotel (5*) in Base Marambio, Antarctica for 270 a night."
+      ]
+    },
+    {
+      "tag": "cold in arctic",
+      "patterns": [
+        "Hey i want to go somewhere cold in arctic?",
+        "Is there any cold place out there in arctic?",
+        "For vacation i would like some cold place in arctic, any recommendations?",
+        "Any recommendations for a cold place in arctic?",
+        "Show me cold places in the arctic"
+      ],
+      "responses": [
+        "The NorthStar (5*) in Greenland is perfect for you! Book now from 250 a night."
+      ]
+    },
+    {
+      "tag": "hot in australia",
+      "patterns": [
+        "Hey i want to go somewhere hot in australia?",
+        "Is there any hot place out there in australia?",
+        "For vacation i would like a hot place in australia, any recommendations?",
+        "Any recommendations for a hot place in australia?",
+        "Show me hot places in australia"
+      ],
+      "responses": [
+        "I think the TooHot hotel (5*) in Sydney, Australia would be a suitable place for you. Book now from 67 a night."
+      ]
+    },
+    {
+      "tag": "mild in australia",
+      "patterns": [
+        "Hey i want to go somewhere mild in australia?",
+        "Is there any mild place out there in australia?",
+        "For vacations i would like some mild place in australia, any recommendations?",
+        "Any recommendations for a mild place in australia?",
+        "Show me mild places in australia"
+      ],
+      "responses": [
+        "Why not try out SeaViews (3*) in Bora Bora, French Polynesia. Available from 54 a night.",
+        "The ForestRetreat (4*) in Waikato, New Zealand is perfect for you! Book now from 89 a night."
+      ]
+    }
+  ]
+}

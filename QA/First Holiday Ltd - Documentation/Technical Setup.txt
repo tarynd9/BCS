@@ -1,0 +1,35 @@
+## Initial Setup:
+
+Download project and create a virtual environment
+```
+$ cd {directory}
+$ python -m venv venv
+$ . venv/Scripts/activate
+```
+Install dependencies
+```
+$ (venv) pip install Flask torch torchvision nltk
+```
+Install nltk package
+```
+$ (venv) python
+>>> import nltk
+>>> nltk.download('punkt')
+```
+Modify `intents.json` with different intents and responses for your Chatbot to further expand its intelligence.
+
+Run
+```
+$ (venv) python train.py
+```
+This will dump data.pth file. And then run
+the following command to test it in the console.
+```
+$ (venv) python chat.py
+```
+To deploy the chatbot in a development environment, run the following command:
+$ (venv) python app.py
+```
+This will deploy the Flask application in a virtual environment for development, visit 127.0.0.1:5000 to access the application.
+
+
